@@ -10,8 +10,7 @@ public class MagpieRunner2 {
 	/**
 	 * Create a Magpie, give it user input, and print its replies.
 	 */
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Magpie2 maggie = new Magpie2();
 
 		String response = maggie.getGreeting();
