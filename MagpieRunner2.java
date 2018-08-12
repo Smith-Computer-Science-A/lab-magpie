@@ -14,12 +14,15 @@ public class MagpieRunner2 {
 		Magpie2 maggie = new Magpie2();
 
 		String response = maggie.getGreeting();
+		System.out.println(response);
 		String statement = JOptionPane.showInputDialog(response);
+		System.out.println(statement);
 
-		while (!statement.equals("Bye"))
-		{
+		while (!statement.equals("Bye")) {
 			response = maggie.getResponse(statement);
+			System.out.println(response);
 			statement = JOptionPane.showInputDialog(response);
+			System.out.println(statement);
 		}
 	}
 
