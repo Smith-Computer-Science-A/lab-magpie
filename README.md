@@ -15,22 +15,53 @@ This repository contains all of the code required to complete the portions of th
 Trace each call in the tables provided. You will not necessarily use every row in each table.
 
 1. (2 points) findKeyword("She's my sister", "sister", 0);
+
 | Iteration  |  psn  |  before  |  after  |
 |:----------:|:-----:|:--------:|:-------:|
 |            |       |          |         |
-Iteration    psn    before    after
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
 
 
 2. (2 points) findKeyword("Brother Tom is helpful", "brother", 0);
-Iteration    psn    before    after
+
+| Iteration  |  psn  |  before  |  after  |
+|:----------:|:-----:|:--------:|:-------:|
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+
 
 
 3. (3 points) findKeyword("I can't catch wild cats.", "cat", 0);
-Iteration    psn    before    after
+
+| Iteration  |  psn  |  before  |  after  |
+|:----------:|:-----:|:--------:|:-------:|
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
 
 
 4. (3 points) findKeyword("I know nothing about snow plows.", "no", 0);
-Iteration    psn    before    after
+
+| Iteration  |  psn  |  before  |  after  |
+|:----------:|:-----:|:--------:|:-------:|
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+|            |       |          |         |
+
 
 ## Magpie 4 Questions
 1. (10 points) Find an example of when this structure does not work well. How can you improve it?
