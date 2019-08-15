@@ -15,6 +15,9 @@ This repository contains all of the code required to complete the portions of th
 Trace each call in the tables provided. You will not necessarily use every row in each table.
 
 1. (2 points) findKeyword("She's my sister", "sister", 0);
+| Iteration  |  psn  |  before  |  after  |
+|:----------:|:-----:|:--------:|:-------:|
+|            |       |          |         |
 Iteration    psn    before    after
 
 
@@ -22,7 +25,7 @@ Iteration    psn    before    after
 Iteration    psn    before    after
 
 
-3. (2 points) findKeyword("I can't catch wild cats.", "cat", 0);
+3. (3 points) findKeyword("I can't catch wild cats.", "cat", 0);
 Iteration    psn    before    after
 
 
