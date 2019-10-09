@@ -205,4 +205,20 @@ public class Magpie4 {
 		return response;
 	}
 
+	public static void main(String[] args) {
+		/**
+		 * Create a Magpie, give it user input, and print its replies.
+		 */
+		Magpie4 maggie = new Magpie4();
+
+		String response = maggie.getGreeting();
+		String statement = "";
+
+		do {
+			System.out.println("Magpie: " + response);
+			statement = TextInput.getString(response);
+			System.out.println("Me:     " + statement);
+			response = maggie.getResponse(statement);
+		} while (!statement.equals("Bye"));
+	}
 }

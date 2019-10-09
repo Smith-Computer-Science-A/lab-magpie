@@ -148,4 +148,26 @@ public class Magpie3 {
 		return response;
 	}
 
+	public static void main(String[] args) {
+		/**
+		 * Create a Magpie, give it user input, and print its replies.
+		 */
+		Magpie3 maggie = new Magpie3();
+
+		String response;
+		String statement = "";
+		boolean first = true;
+		do {
+			if (first) {
+				first = false;
+				response = maggie.getGreeting();
+			} else {
+				response = maggie.getResponse(statement);
+			}
+			System.out.println("Magpie: " + response);
+			statement = TextInput.getString(response);
+			System.out.println("Me:     " + statement);
+		} while (!statement.equals("Bye"));
+	}
+
 }
