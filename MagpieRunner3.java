@@ -1,5 +1,3 @@
-import javax.swing.JOptionPane;
-
 /**
  * A simple class to run the Magpie class.
  * @author Laurie White
@@ -23,9 +21,9 @@ public class MagpieRunner3 {
 			} else {
 				response = maggie.getResponse(statement);
 			}
-			System.out.println(response);
-			statement = JOptionPane.showInputDialog(response);
-			System.out.println(statement);
+			System.out.println("Magpie: " + response);
+			statement = TextInput.getString(response);
+			System.out.println("Me:     " + statement);
 		} while (!statement.equals("Bye"));
 	}
 

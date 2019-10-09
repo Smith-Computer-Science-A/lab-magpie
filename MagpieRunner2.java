@@ -1,5 +1,3 @@
-import javax.swing.JOptionPane;
-
 /**
  * A simple class to run the Magpie class.
  * @author Laurie White
@@ -14,15 +12,15 @@ public class MagpieRunner2 {
 		Magpie2 maggie = new Magpie2();
 
 		String response = maggie.getGreeting();
-		System.out.println(response);
-		String statement = JOptionPane.showInputDialog(response);
-		System.out.println(statement);
+		System.out.println("Magpie: " + response);
+		String statement = TextInput.getString(response);
+		System.out.println("Me:     " + statement);
 
 		while (!statement.equals("Bye")) {
 			response = maggie.getResponse(statement);
-			System.out.println(response);
-			statement = JOptionPane.showInputDialog(response);
-			System.out.println(statement);
+			System.out.println("Magpie: " + response);
+			statement = TextInput.getString(response);
+			System.out.println("Me:     " + statement);
 		}
 	}
 
